@@ -1,0 +1,11 @@
+Busines Problem Statement: (menganalisis untuk mencari karakteristik kustomer untuk menjadi karakteristik masing-masing kluster)
+- Problem Statement
+- Goal
+
+Data Understanding:
+- bagaimana credit card limit bekerja ? Tergantung karakteristik pengguna secara spefisik atau tergantung jenis kartu kreditnya atau bisa keduanya ? Beberapa sumber mengatakan tergantung behavior nasabah (https://www.capitalone.com/learn-grow/money-management/what-is-a-credit-limit/#:~:text=How%20is%20your%20credit%20limit%20determined%3F, https://www.investopedia.com/terms/c/credit_limit.asp#:~:text=Credit%20limits%20can%20play%20a%20key%20role%20in%20your%20financial%20picture%2C%20and%20they%20are%20different%20for%20each%20person%20and%20for%20each%20financial%20product.)
+- Apakah data sudah cukup untuk menjawab problem statement dan goal yang ingin dicapai ?
+- data yang bersifat frequency termasuk numerik diskrit atau kategorikal ? Tapi di machine learning perlakuan data diskrit diperlakukan seperti kategorikal
+
+(3 Oktober 2023):
+1. Data Distribution Plot

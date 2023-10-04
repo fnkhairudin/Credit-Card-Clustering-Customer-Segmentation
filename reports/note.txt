@@ -1,5 +1,5 @@
 Busines Problem Statement: (menganalisis untuk mencari karakteristik kustomer untuk menjadi karakteristik masing-masing kluster)
-- Problem Statement : kehilangan revenue berapa persen jika sampai nasabah pindah ke bank competitor lain ?
+- Problem Statement : kehilangan revenue berapa persen jika sampai nasabah pindah ke bank competitor lain ? (https://www.fpsc.com/the_cost_of_customer_churn.pdf)
 - Goal
 
 Data Understanding:
@@ -10,5 +10,15 @@ Data Understanding:
 (3 Oktober 2023):
 1. Data Distribution Plot
 
+(4 Oktober 2023):
+EDA (point 1 s/d 3)
+
 Referensi:
 https://www.fpsc.com/the_cost_of_customer_churn.pdf
+
+ToDo:
+- EDA 2.1. dan 2.2.: ambil insight
+- EDA 2.3. : Kolom apa saja yang mau divisualisasikan ?
+- EDA 3.1. : Analisa gimana cara filla kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS
+- EDA 3.2. : Cek outlier secara univariate, ambil insight
+- apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1

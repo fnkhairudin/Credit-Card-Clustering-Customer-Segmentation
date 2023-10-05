@@ -16,8 +16,9 @@ EDA (point 1 s/d 3)
 Referensi:
 https://www.fpsc.com/the_cost_of_customer_churn.pdf
 
-ToDo:
-- EDA 2.1. dan 2.2.: ambil insight
+ToDo (5 Oktober 2023):
+- Problem Statement --> measureable enough ? Kehilangan revenue berapa % ? [DONE]
+- EDA 2.1. dan 2.2.: ambil insight [DONE]
 - EDA 2.3. : Kolom apa saja yang mau divisualisasikan ?
 - EDA 3.1. : Analisa gimana cara filla kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS
 - EDA 3.2. : Cek outlier secara univariate, ambil insight

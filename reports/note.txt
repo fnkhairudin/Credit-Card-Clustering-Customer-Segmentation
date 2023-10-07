@@ -16,10 +16,10 @@ EDA (point 1 s/d 3)
 Referensi:
 https://www.fpsc.com/the_cost_of_customer_churn.pdf
 
-ToDo (5 Oktober 2023):
+ToDo:
 - Problem Statement --> measureable enough ? Kehilangan revenue berapa % ? [DONE]
 - EDA 2.1. dan 2.2.: ambil insight [DONE]
-- EDA 2.3. : Kolom apa saja yang mau divisualisasikan ?
-- EDA 3.1. : Analisa gimana cara filla kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS
+- EDA 2.3. : Kolom apa saja yang mau divisualisasikan ? [DONE???]
+- EDA 3.1. : Analisa gimana cara fillna kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS
 - EDA 3.2. : Cek outlier secara univariate, ambil insight
-- apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1
+- apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1 --> coba domain knowledge

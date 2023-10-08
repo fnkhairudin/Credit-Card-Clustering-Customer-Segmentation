@@ -20,6 +20,7 @@ ToDo:
 - Problem Statement --> measureable enough ? Kehilangan revenue berapa % ? [DONE]
 - EDA 2.1. dan 2.2.: ambil insight [DONE]
 - EDA 2.3. : Kolom apa saja yang mau divisualisasikan ? [DONE???]
-- EDA 3.1. : Analisa gimana cara fillna kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS
-- EDA 3.2. : Cek outlier secara univariate, ambil insight
-- apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1 --> coba domain knowledge
+- EDA 3.1. : Analisa gimana cara fillna kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS [median/sk-learn imputer?]
+- EDA 3.2. : Cek outlier secara univariate, ambil insight [DONE]
+- apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1. Apakah terdapat cara untuk mengukur frekuensi2 ? --> coba domain knowledge (https://study.com/learn/lesson/what-is-relative-frequency.html#:~:text=The%20formula%20for%20relative%20frequency%20is%20usually%20given%20as%20a,decimal%20between%200%20and%201.)
+- apakah perlu analisa seberapa sering nasabah melakukan pembelian (PURCHASES_FREQUENCY) ? Kemudian bagaimana PAYMENTS-nya ? Atau dilihat dari rata2nya ?

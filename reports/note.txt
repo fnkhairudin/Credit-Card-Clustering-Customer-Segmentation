@@ -22,10 +22,11 @@ ToDo 1:
 - EDA 2.3. : Kolom apa saja yang mau divisualisasikan ? [DONE???]
 - EDA 3.1. : Analisa gimana cara fillna kolom CREDIT_LIMIT dan MINIMUM_PAYMENTS [median/sk-learn imputer?]
 - EDA 3.2. : Cek outlier secara univariate, ambil insight [DONE]
-- apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1. Apakah terdapat cara untuk mengukur frekuensi2 ? --> coba domain knowledge (https://study.com/learn/lesson/what-is-relative-frequency.html#:~:text=The%20formula%20for%20relative%20frequency%20is%20usually%20given%20as%20a,decimal%20between%200%20and%201.)
+- [DONE] apakah nilai maksimal CASH_ADVANCE_FREQUENCY memang 1.5 ? sedangkan yang lainnya 1. Apakah terdapat cara untuk mengukur frekuensi2 ? --> coba domain knowledge (https://study.com/learn/lesson/what-is-relative-frequency.html#:~:text=The%20formula%20for%20relative%20frequency%20is%20usually%20given%20as%20a,decimal%20between%200%20and%201.)
 - apakah perlu analisa seberapa sering nasabah melakukan pembelian (PURCHASES_FREQUENCY) ? Kemudian bagaimana PAYMENTS-nya ? Atau dilihat dari rata2nya ?
 
-ToDo 2 (preprocess):
-- cara kerja KNNImputer
-- Kalau CREDIT_LIMIT mungkin bisa pakai KNNImputer
-- MINIMUM_PAYMENTS --> ada PURCHASES = 0 dan PAYMENTS = 0, MINIMUM_PAYMENTS = NaN. Ada juga yang PURCHASES = 0 dan PAYMENTS != 0, MINIMUM_PAYMENTS = NaN
+ToDo 2 (preprocess) --> Pipeline:
+- cara kerja KNNImputer [DONE]
+- Kalau CREDIT_LIMIT mungkin bisa pakai KNNImputer, karena clustering ? [DONE]
+- MINIMUM_PAYMENTS --> ada PURCHASES = 0 dan PAYMENTS = 0, MINIMUM_PAYMENTS = NaN. Ada juga yang PURCHASES = 0 dan PAYMENTS != 0, MINIMUM_PAYMENTS = NaN [DONE]
+- Outlier ?

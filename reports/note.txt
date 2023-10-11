@@ -15,6 +15,7 @@ EDA (point 1 s/d 3)
 
 Referensi:
 https://www.fpsc.com/the_cost_of_customer_churn.pdf
+- dagshub dan mlflow tracking (https://www.youtube.com/watch?v=6h0tNCShmsU)
 
 ToDo 1:
 - Problem Statement --> measureable enough ? Kehilangan revenue berapa % ? [DONE]
@@ -30,3 +31,7 @@ ToDo 2 (preprocess) --> Pipeline:
 - Kalau CREDIT_LIMIT mungkin bisa pakai KNNImputer, karena clustering ? [DONE]
 - MINIMUM_PAYMENTS --> ada PURCHASES = 0 dan PAYMENTS = 0, MINIMUM_PAYMENTS = NaN. Ada juga yang PURCHASES = 0 dan PAYMENTS != 0, MINIMUM_PAYMENTS = NaN [DONE]
 - Outlier ?
+
+ToDo 3 (feature engineering):
+- komposisi feature
+- experiment

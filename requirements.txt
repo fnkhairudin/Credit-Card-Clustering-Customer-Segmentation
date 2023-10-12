@@ -4,5 +4,7 @@ missingno
 scipy
 category_encoders
 scikit-learn
+mlflow
 xgboost
 lightgbm
+hdbscan

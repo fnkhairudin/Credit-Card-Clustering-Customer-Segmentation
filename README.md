@@ -67,9 +67,7 @@ Data Understanding
 
 Cluster Analysis
 ------------
-![Visualisasi 2D hasil Clustering](../Credit_Card_Clustering_Final_Project/reports/visualisasi%202D%20hasil%20clustering%20KMeans-Tuned.png)
-![Visualisasi 3D hasil Clustering](../Credit_Card_Clustering_Final_Project/reports/visualisasi%203D%20hasil%20clustering%20KMeans-Tuned.png)
-![Rata-rata nilai fitur berdasarkan clusternya](../Credit_Card_Clustering_Final_Project/reports/Rata-rata%20nilai%20fitur%20berdasarkan%20cluster.png)
+![alt text](https://github.com/fnkairudin/Credit_Card_Clustering_Final_Project/blob/master/reports/visualisasi 2D hasil clustering KMeans-Tuned.png?raw=true)
 
 1. Rata-rata nilai berdasarkan fitur-fiturnya
 - Terdapat 3 cluster hasil dari model KMeans-Tuned
@@ -106,11 +104,14 @@ Rekomendasi
 ------------
 1. Rekomendasi Strategi Marketing
 Berdasarkan hasil _clustering_ yang sudah dilakukan, maka strategi marketing yang dapat dilakukan pada masing-masing cluster adalah sebagai berikut:
-- Cluster 0 :
+    - Cluster 0 :
+
     Karena cluster 0 adalah cluster yang paling banyak terdapat nasabah yang sering menggunakan kartu kredit lebih dari limit yang digunakan, bisa ditawarkan untuk promosi terkait penambahan limit kartu kredit kepada nasabah terutama nasabah yang tidak pempunyai tagihan. Kemudian, cluster ini terdiri dari nasabah dengan rata-rata sisa saldo untuk melakukan pembelian yang lebih rendah dibandingkan dengan cluster lainnya, sehingga mereka cenderung memiliki saldo yang lebih rendah untuk melakukan pembelian. Untuk menarik dan mempertahankan pelanggan dalam cluster ini, strategi marketing yang dapat dilakukan penawaran diskon atau penawaran khusus untuk memanfaatkan saldo yang tersisa dalam akun mereka. Selanjutnya, promosi pada produk tertentu, fokuskan pada promosi produk atau layanan yang sesuai dengan sisa saldo rendah nasabah dalam cluster ini.
-- Cluster 1 :
+    - Cluster 1 :
+
     Mengadakan campign atau promosi dengan tujuan agar nasabah mau bertransaksi dengan kartu kredit, terutama nasabah yang sama sekali belum pernah bertransaksi. Bisa dengan menawarkan cicilan bunga 0%. Selain itu Bank Beta disarankan untuk meningkatkan kemudahan membayar tagihan kartu kredit serta memberi edukasi kepada nasabah terutama nasabah yang masih takut menggunakan kartu kredit dikarenakan takut melebihi limitnya. Jika dilihat dari _cash advance_, Bank Beta juga bisa melakukan penawaran khusus atau insentif untuk cash advance, seperti tingkat bunga yang kompetitif atau biaya transaksi yang lebih rendah. Edukasi finansial, menyediakan informasi kepada nasabah dalam cluster ini tentang bagaimana melakukan _cash advance_ dengan bijak dan mengelola keuangan mereka, sehingga mereka tetap melakukan cash advance, namun juga membayar pembayarannya (payments). Bank Beta juga dapat, memberikan pilihan untuk mengatur batas _cash advance_ harian, mingguan, atau bulanan untuk membantu pelanggan dalam cluster ini menghindari penarikan yang berlebihan.
-- Cluster 2 :
+    - Cluster 2 :
+
     Cluster 2 sebagai gambaran nasabah sudah terbiasa menggunakan kartu kredit baik yang dibayar langsung maupun dijadikan cicilan dengan tenure tertentu. Untuk cluster ini bisa ditawarkan promo kenaikan limit kartu kredit serta bank diharapkan memberikan promosi terkait kesetiaan nasabah bank yang sudah lama menggunakan kartu kredit, sehingga nasabah akan terus menggunakan kartu kredit bank beta untuk bertransaksi. Selain itu, bisa juga dilakukan layanan premium, yaitu dengan menawarkan layanan premium atau produk eksklusif kepada pelanggan dalam cluster ini.
 2. Rekomendasi Model
 - Ketika melakukan training, mencoba dengan algoritma _unsupervised machine learning_ lainnya seperti, Gaussian Mixture, Affinity Propagation, Deep Clustering Network (DCN), Deep Adaptive Clustering (DAC), Deep Embedded Clustering (DEC), Information Maximizing Self-Augmented Training (IMSAT), dan lain sebagainya, sehingga cluster yang terbentuk mungkin lebih baik.

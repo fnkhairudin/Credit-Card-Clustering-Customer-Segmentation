@@ -121,3 +121,7 @@ Berdasarkan hasil _clustering_ yang sudah dilakukan, maka strategi marketing yan
 Dashboard
 ------------
 https://public.tableau.com/app/profile/fajar.dwi.kurnianto/viz/CLUSTERINGCREDITCARDCUSTOMER/Dashboard1
+
+Mlflow Tracking Experiment
+------------
+https://dagshub.com/fnkhairudin/Credit-Card-Clustering-Customer-Segmentation.mlflow

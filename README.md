@@ -67,7 +67,8 @@ Data Understanding
 
 Cluster Analysis
 ------------
-![alt text](https://github.com/fnkhairudin/Credit-Card-Clustering-Customer-Segmentation/blob/cluster-analysis-2/reports/visualisasi2D.png)
+![alt text](https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_01_FinalProject/blob/master/reports/visualisasi2D.png)
+![alt text](https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_01_FinalProject/blob/master/reports/visualisasi3D.png)
 
 1. Rata-rata nilai berdasarkan fitur-fiturnya
 - Terdapat 3 cluster hasil dari model KMeans-Tuned
@@ -80,15 +81,15 @@ Cluster Analysis
     - Cluster 0 merupakan cluster dengan total jumlah nasabah yang paling sedikit. Nasabah pada cluster ini lebih konsumtif dalam menggunakan kartu kredit mereka. Hal ini ditunjukkan dari jumlah pembelian (purchases) mereka yang paling besar, yaitu 2921 dengan rata-rata jumlah transaksi pembelian sebanyak 47 kali transaksi. Mereka juga lebih banyak melakukan pembelian dengan sistem cicilan (installments) dibandingkan dengan sistem langsung lunas (oneoff). Mereka juga memiliki rata-rata credit limit yang paling besar. Mereka juga terkadang melakukan penarikan uang tunai, tapi tidak sebanyak nasabah pada cluster 1. Kemudian, mereka memiliki presentase pembayaran penuh paling besar, yaitu 23%.
 
 2. Purchases Type
-![Purchases Type Berdasarkan Cluster](../Credit_Card_Clustering_Final_Project/reports/purchases%20type%20cluster.png)
+![alt text](https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_01_FinalProject/blob/master/reports/purchases_type_cluster.png)
 Nasabah yang termasuk ke dalam cluster 0—cluster dengan nasabah yang tergolong aktif dan seimbang dalam menggunakan kartu kredit—, lebih banyak menggunakan kartu kredit dengan sistem cicilan (installments). Kemudian pada cluster 2, cluster yang tergolong konsumtif atau sering menggunakan pembelian (purchases) lebih banyak menggunakan dengan sistem cicilan(installments) maupun lunas (oneoff). Sedangkan pada cluster 1, nasabah lebih banyak tidak menggunakan kartu kredit untuk melakukan pembelian, tapi digunakan untuk penarikan uang.
 
 3. Remaining Limit
-![Sisa Limit Berdasarkan Cluster](../Credit_Card_Clustering_Final_Project/reports/sisa%20limit%20cluster.png)
+![alt text](https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_01_FinalProject/blob/master/reports/sisa_limit_cluster.png)
 Pada semua cluster, mayoritas nasabah menggunakan kartu kredit mereka tidak melebihi limit yang diberikan oleh Bank. Walaupun cluster 0 tergolong cluster yang aktif dan seimbang, tetapi jika dibandingkan dengan cluster lainnya, cluster 0 memiliki presentase yang paling besar dalam hal menggunakan kartu kredit melebihi limit, yaitu sebesar 4.18%.
 
 4. Tagihan
-![Presentase Tagihan Berdasarkan Cluster](../Credit_Card_Clustering_Final_Project/reports/tagihan%20cluster.png)
+![alt text](https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_01_FinalProject/blob/master/reports/tagihan_cluster.png)
 Walaupun cluster 0 tergolong cluster yang konsumtif karena sering menggunakan kartu kredit mereka untuk melakukan pembelian dengan sistem cicilan (installments) dibandingkan sistem lunas (oneoff), tapi 83% sudah tidak memiliki tagihan yang harus dibayarkan. Cluster dengan nasabah yang memiliki tagihan yang masih harus dibayarkan ada pada cluster 1, dimana cluster ini merupakan cluster yang sering melakukan penarikan uang tunai melalui kartu kredit mereka.
 
 Kesimpulan

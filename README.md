@@ -67,7 +67,7 @@ Data Understanding
 
 Cluster Analysis
 ------------
-![alt text](../Credit_Card_Clustering_Final_Project/reports/visualisasi2D.png)
+![alt text](https://github.com/fnkairudin/Credit_Card_Clustering_Final_Project/cluster-analysis-2/reports/visualisasi2D.png?raw=true)
 
 1. Rata-rata nilai berdasarkan fitur-fiturnya
 - Terdapat 3 cluster hasil dari model KMeans-Tuned
